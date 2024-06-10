@@ -1,0 +1,63 @@
+/* Estilo da Sidebar/Menu lateral*/
+
+nav.menu-lateral{
+    display: flex;
+    width: 80px;
+    height: 100%;
+    background-color: antiquewhite;
+    padding: 40px 0 40px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 0 0 #000000ef;
+    overflow: hidden;
+    transition: .3s;
+    
+}
+
+nav.menu-lateral:hover{
+    width: 500px;
+}
+.button-expandir{
+    width: 100%;
+    padding: 10px;
+}
+
+.button-expandir{
+    color: #1a1a1d;
+    font-size: 75px;
+    display: flex;
+    cursor: pointer;
+}
+
+ul{
+    height: 100%;
+    list-style-type: none;
+}
+
+ul li.item-menu{
+    transition: .3s;
+}
+
+ul li.item-menu:hover{
+    background-color: rgb(16, 184, 184);
+}
+
+ul li.item-menu a{
+    color: #1a1a1d;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 30px 4%;
+    display: flex;
+    line-height: 40px;
+}
+
+.txt-link{
+    margin-left: 20px;
+    font-size: 26px;
+}
+
+.icon i{
+    font-size: 35px;
+    margin-left: 15px;
+}
