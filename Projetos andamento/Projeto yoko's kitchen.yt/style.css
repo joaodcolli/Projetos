@@ -1,0 +1,151 @@
+body{
+    background-image: url(assets/img/fundo-de-textura-de-madeira-grunge.jpg);
+    font-family: Georgia, Times, serif;
+    line-height: 1.4em;
+}
+
+#wrapper{
+    background-color: rgb(179, 179, 179);
+    width: 940px;
+    height: 780px;
+    margin: 25px auto;
+    border: 1px solid black;
+}
+
+header{
+    height: 100px;
+    background-color: #bebebe;
+
+}
+
+    div.hgroup {
+        padding: 25px 0 0 30px;
+    }
+
+    div.hgroup h1, h2{
+        display: flex;
+        justify-content: flex-start; 
+    }
+
+    div.hgroup h1{
+        font-size: 2.7rem;
+        line-height:40px;
+    }
+
+    div.hgroup h2{
+        font-size: 1.2rem;
+        margin: 0 5px;
+    }
+
+    nav{
+        height: 50px;
+        background-color: #8d8b8b;
+    }
+
+        .nav-list{
+            display: flex;
+            justify-content: flex-start;
+            padding: 12px 20px;
+        }
+
+        .nav-item a{
+            padding: 0 10px;
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav-item a:hover{
+            color: #bebebe;
+            transition: 0.2s;
+        }
+
+main{
+    display: flex;
+    height: 590px;
+    
+}
+
+section{ 
+     flex: 1;  
+     background-color: white; 
+}
+
+    figure{
+        float: left;
+        margin-left: 28px;
+    }
+
+    figure, .textgroup{
+        margin-top: 2.5rem;
+    }
+
+    .textgroup h2{
+        font-size: 1.45rem; 
+        line-height: 28px;   
+    }
+
+    .textgroup h3{
+        font-size: 1.05rem;
+        color: #d71616;
+    }
+
+    .textgroup h3, h2{
+        margin-left: 340px;
+    }
+
+    .textgroup p{
+        margin: 15px 28px 0 340px;
+    }
+    .course1, .course2{
+        overflow: auto;
+    }
+
+    figcaption{
+        font-size: 18px;
+    }
+
+
+aside{
+    width: 250px;
+    background-color: white;
+    }
+
+    .popular-recipes, .contact-details{
+        margin: 0 5px 0 5px;
+    }
+    .popular-recipes h2{
+        margin-top: 2.5rem;
+        font-size: 24px;
+        color: #d71616;
+        margin-left: 3px;
+    }
+
+    .popular-recipes ul{
+        margin-top: 30px;
+        margin-left: 12px;
+    }
+
+    .popular-recipes a{
+        text-decoration: none;
+        color: #d71616;
+    }
+
+    .popular-recipes li{
+        margin-top: 30px;
+        font-size: 17px ;
+    }
+
+    .contact-details h2{
+        font-size: 22px;
+        margin-top: 5rem;
+        margin-left: 3px;
+        color: #d71616;
+    }
+
+    .contact-details p{
+        margin: 15px 7px;
+    }
+
+    footer{
+        margin: 9px 28px;
+    }
