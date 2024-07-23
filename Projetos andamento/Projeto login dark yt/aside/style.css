@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.main-login{
+    width: 100vw;
+    height: 100vh;
+    background-color: #201b2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw; /* usei apenas 50vw pois quero dividir o centro da tela com a outra div "right-login" */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.left-login > h1{
+    color: #77ffc0;
+    font-size: 3vw;
+}
+
+.ani{
+    width: 35vw;
+}
+
+.right-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 60%; /* aqui eu usei porcentagem pois eu quero 60% das 50vh, e não 60vh (60% do espaço total do documento) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background-color: #2f2841;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.txtgroup > h1{
+    color: #00ff88;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card-login > h1{
+    color: #00ff88;
+    font-weight: 700;
+    margin: 0;
+    
+}
+
+.txtgroup > a{
+    color: #f0ffffc2;
+    font-weight: 300;
+    font-size: 14px;
+    margin: 0;
+    text-decoration: none;
+}
+
+.txtgroup > a:hover{
+   text-decoration:underline;
+   font-size: 15px;
+   transition: .3s ease-out;
+}
+
+.inputfield{
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px 0px;
+}
+
+.inputfield > input{
+    width: 100%;
+    background-color: #514869;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: #f0ffffde;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.inputfield > label{
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.inputfield > input::placeholder{
+    color: #f0ffff94
+}
+
+.btn-login{
+    padding: 16px 0;
+    width: 100%;
+    border: 0;
+    border-radius: 10px;
+    margin: 15px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight:800;
+    color: #2b134b;
+    background-color: #00ff88;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #00ff8052;
+
+}
+
+
+@media only screen and (max-width: 950px){
+    .card-login{
+        width: 85%;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .main-login{
+        flex-direction: column;
+    }
+    .txtgroup{
+        display: none;
+    }
+    .right-login{
+        width: 75vw;
+        height: 100%;
+    }
+    .left-login{
+        width: 100vw;
+        height: 40%;
+    }
+
+    .ani{
+        width: 45%;
+    }
+}
